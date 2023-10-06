@@ -1,0 +1,30 @@
+$transparent: transparent;
+$black: black;
+$white: white;
+$dark: #212121;
+$dark2: #212121;
+
+@mixin carroselItensCss {
+    .overlayDS {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(to bottom, $black, $transparent);
+      width: 100%;
+    }
+    .contentDS {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: $white;
+      text-align: center;
+      z-index: 1;
+      width: 60%;
+      .textAppDS {
+        text-align: justify;
+        font-size: 20px;
+      }
+    }
+}
