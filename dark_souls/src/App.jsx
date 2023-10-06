@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useSpring, animated } from "react-spring";
+import "./styles/index.css";
 import DS1 from "./components/DS1/DS1";
 import DS2 from "./components/DS2/DS2";
 import DS3 from "./components/DS3/DS3";
