@@ -1,4 +1,13 @@
 {
+  "name": "dark_souls",
+  "version": "1.0.0",
+  "homepage": "https://viniciusggabriel.github.io/LandingPageDarksouls/dark_souls/public/",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "devDependencies": {
     "gh-pages": "^6.0.0"
   }
