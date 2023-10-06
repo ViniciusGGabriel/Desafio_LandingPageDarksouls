@@ -42,7 +42,7 @@ function App() {
     <>
       {/* Tela de inicio */}
       <div className="bg-Img">
-        <div class="overlay"></div>
+        <div className="overlay"></div>
         <div className="content">
           <h1 className="titleApp">DARK SOULS</h1>
           <span className="textApp">
@@ -58,8 +58,8 @@ function App() {
       {/* Botão que troca os componentes  */}
       <div className="carroselDS">
         <button onClick={alternarComp}>
-          <a class="btn">
-            <span class="spn2">{componenteName}</span>
+          <a className="btn">
+            <span className="spn2">{componenteName}</span>
           </a>
         </button>
       </div>
