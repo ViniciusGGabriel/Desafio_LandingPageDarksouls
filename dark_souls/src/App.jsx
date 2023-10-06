@@ -3,7 +3,6 @@ import { useSpring, animated } from "react-spring";
 import DS1 from "./components/DS1/DS1";
 import DS2 from "./components/DS2/DS2";
 import DS3 from "./components/DS3/DS3";
-import "./styles/index.css";
 
 function App() {
   /* Coloca o valor de 1 nas constantes */
@@ -11,7 +10,7 @@ function App() {
   /* Inserindo uma animação por meio da biblioteca spring*/
   const props = useSpring({
     opacity: 1,
-    from: {opacity:0},
+    from: { opacity: 0 },
     reset: true,
   });
   /* Faz o valor "dompoAtual ficar entre 1,2 ou 0 e 3 para ficar alternando" */
@@ -66,9 +65,7 @@ function App() {
       </div>
 
       {/* Local onde o componente será colocado e animado*/}
-      <animated.div style={props}>
-      {componente}
-      </animated.div>
+      <animated.div style={props}>{componente}</animated.div>
     </>
   );
 }
