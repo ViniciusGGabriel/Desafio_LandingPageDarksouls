@@ -91,6 +91,11 @@
   font-size: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .bg-ImgDS3 {
+    background-position: -700px;
+  }
+}
 body {
   padding: 0;
   margin: 0;

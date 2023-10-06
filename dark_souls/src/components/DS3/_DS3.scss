@@ -7,3 +7,9 @@
   position: relative;
   @include carroselItensCss;
 }
+
+@media screen and (max-width: 768px) {
+    .bg-ImgDS3 {
+        background-position: -700px;
+    }
+}
