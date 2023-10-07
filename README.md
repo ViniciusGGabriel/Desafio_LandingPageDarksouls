@@ -7,3 +7,5 @@
  ### Para fazer a criação do app foi usado 
  
 `npm creat-react-app {nome do app sem chaves}`
+
+<a href="https://landing-page-darksouls-ikry8eey3-viniciusggabriels-projects.vercel.app/" target="_blank">Link de redirecionamento para o site</a>
